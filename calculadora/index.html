@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora Científica</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <script src="script.js"></script>
+    <div class="calculadora">
+      <input type="text" id="display"/>
+      <div class="buttons">
+        <button onclick="clear_entry()">CE</button>
+        <button onclick="add_to_display('!')">x!</button>
+        <button onclick="add_to_display('(')">(</button>
+        <button onclick="add_to_display(')')">)</button>
+        <button onclick="add_to_display('%')">%</button>
+        <button onclick="clear_all()">AC</button>
+
+        <button onclick="add_to_display('sin(')">sin</button>
+        <button onclick="add_to_display('π')">π</button>
+        <button onclick="add_to_display('7')">7</button>
+        <button onclick="add_to_display('8')">8</button>
+        <button onclick="add_to_display('9')">9</button>
+        <button onclick="add_to_display('/')">/</button>
+
+        <button onclick="add_to_display('cos(')">cos</button>
+        <button onclick="add_to_display('log(')">log</button>
+        <button onclick="add_to_display('4')">4</button>
+        <button onclick="add_to_display('5')">5</button>
+        <button onclick="add_to_display('6')">6</button>
+        <button onclick="add_to_display('*')">X</button>
+
+        <button onclick="add_to_display('tan(')">tan</button>
+        <button onclick="add_to_display('√(')">√</button>
+        <button onclick="add_to_display('1')">1</button>
+        <button onclick="add_to_display('2')">2</button>
+        <button onclick="add_to_display('3')">3</button>
+        <button onclick="add_to_display('-')">-</button>
+
+        <button onclick="add_to_display('e')">e</button>
+        <button onclick="add_to_display('**')">x<sup>y</sup></button>
+        <button onclick="add_to_display('0')">0</button>
+        <button onclick="add_to_display('.')">.</button>
+        <button onclick="result()">=</button>
+        <button onclick="add_to_display('+')">+</button>
+      
+      </div>
+    </div>
+    <h1>Calculadora Cientifica</h1>
+  </body>
+</html>
